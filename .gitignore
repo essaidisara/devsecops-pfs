@@ -1,0 +1,22 @@
+# Environnement virtuel Python
+ai-engine/venv/
+
+# Binaires téléchargés
+ai-engine/kubectl
+ai-engine/argocd
+
+# Modèles ML lourds
+ai-engine/models/*.bin
+ai-engine/models/*.pkl
+
+# Fichiers sensibles
+.env
+*.key
+*.pem
+
+# Docker
+**/__pycache__/
+*.pyc
+
+# Rapports générés
+reports/
